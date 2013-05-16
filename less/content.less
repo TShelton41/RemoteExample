@@ -2,7 +2,41 @@
 	background-color: green;
 	padding: 30px;
 
-
-
-
+	.left{
+		position: relative;
+		float: left;
+		width: 60%;
+		padding-right: 20px;
+	}
+	
+	.right {
+		float: left;
+		width: 30%;
+	}
+	
+	
+	
+	@media only screen and (min-device-width : @navSizeChange) and (max-device-width : @iPadLandscape) and (orientation : portrait) {
+			
+			h1{
+				font-size: 250%;
+				color: @whiteText;
+			}
+			
+			p{
+				font-size: 150%;
+				color: @whiteText;
+			}
+			
+			.left{
+				float: none;
+			}
+			
+			.right {
+				float: none;
+			}
+		
+	}
+	
+	.clearfix();
 }

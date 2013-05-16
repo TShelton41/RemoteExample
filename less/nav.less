@@ -26,12 +26,12 @@ nav {
 	
 	
 	
-	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	@media only screen and (min-device-width : @navSizeChange) and (max-device-width : @iPadLandscape) and (orientation : portrait) {
 		a{
 			p{
 				display: block;
 				width: 60%;
-				
+				font-size: 150%;
 				
 				.navButton(@navButtonColor, 50px 0, 30px 40px);
 				margin: 10px auto;
