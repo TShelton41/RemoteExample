@@ -1,0 +1,42 @@
+nav {
+	//background-color: green;
+	
+	a {
+		p {
+			display: inline-block;
+			background-color: blue;
+			color: @linkColor;
+			
+			.navButton(@navButtonColor, 50px 0, 10px 40px, 10px);
+			margin-left: 10px;
+			
+			&:hover{
+		      color: @hoverColor;
+		    }
+		     &:visited{
+		      color: @visitedColor;
+		    }
+			
+		}
+		      
+		      color: @linkColor;
+		      text-decoration: none;
+	 }
+	
+	
+	
+	
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+		a{
+			p{
+				display: block;
+				width: 60%;
+				
+				
+				.navButton(@navButtonColor, 50px 0, 30px 40px);
+				margin: 10px auto;
+			}
+		}
+	}
+	
+}

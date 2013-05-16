@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "us.thedevbox.RemoteExample"
+        versionCode="10" 
+        version = "1.0.1">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Remote Example</name>
+
+    <description>
+        This is a test of remote data
+    </description>
+
+    <author href="https://thedevbox.us" email="todd@thedevbox.us">
+        The Dev Box 
+    </author>
+    
+
+</widget>
