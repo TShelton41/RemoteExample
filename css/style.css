@@ -90,7 +90,7 @@ nav a p:visited {
   float: left;
   width: 30%;
 }
-@media only screen and (min-device-width: 800px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-device-width: 800px) and (max-device-width: 1024px) and (orientation: portrait), only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
   #content h1 {
     font-size: 250%;
     color: #ffffff;
