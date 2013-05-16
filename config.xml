@@ -17,5 +17,8 @@
         The Dev Box 
     </author>
     
+    <icon src="images/512.png" />
+    
+    
 
 </widget>
